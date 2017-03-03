@@ -1,0 +1,7 @@
+{
+	"encodeLst": {
+		"frm": ["AUTO", "SJIS", "EUCJP", "UTF8", "JIS", "UTF16LE", "UTF16BE", "UTF16"],
+		"to": ["SJIS", "EUCJP", "UTF8", "JIS", "UTF16LE", "UTF16BE", "UTF16"]
+	},
+	"pathDflt": "../sample.txt"
+}

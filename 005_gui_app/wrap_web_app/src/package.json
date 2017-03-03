@@ -1,0 +1,17 @@
+{
+  "name": "wrap_web_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "window": {
+    "position": "center",
+	"width": 800,
+	"height": 600
+  },
+  "author": "Masakazu Yanai",
+  "license": "ISC"
+}

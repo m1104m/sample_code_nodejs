@@ -1,0 +1,14 @@
+{
+  "name": "zipUse7Zip",
+  "version": "1.0.0",
+  "description": "Test Code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Masakazu Yanai",
+  "license": "ISC",
+  "dependencies": {
+    "jszip": "^2.5.0"
+  }
+}

@@ -1,0 +1,39 @@
+start /b /wait /low "" "<7zip>" a -mcu=on -tzip "<arc>" "<arg>"
+
+start …… 新規コマンドプロンプト画面を開く
+　/b …… 新規ウィンドウを作成せずにアプリを起動
+　/wait …… アプリやコマンドが終了するまで待機
+　/low …… 低優先度で実行（7zipがCPUを100%食いつぶす問題への対策）
+　"" …… タイトル（次のパスに""を付けた際、そのパスがタイトルと
+　　　　　見なされるので、空文字タイトルを置いておくと無難）
+
+<7zip> …… 7zipのパス
+　a …… Add（追加）コマンド
+　-mcu=on …… 非ASCII文字をUTF-8で扱う
+　-mcl=on …… 非ASCII文字をローカルの文字コードで扱う
+　-t …… アーカイブのタイプ。-tzip でZIP
+　<arc> …… 圧縮ファイル
+　<arg> …… 引数のパス
+
+
+
+
+参考資料：
+7-Zip
+	圧縮・解凍ソフト 7-Zip
+	https://sevenzip.osdn.jp/
+	ダウンロード | 7-Zip
+	https://sevenzip.osdn.jp/download.html
+
+7-Zip Command Line Syntax
+	Command Line Syntax | 7-Zip
+	https://sevenzip.osdn.jp/chm/cmdline/syntax.htm
+	Command Line Commands
+	https://sevenzip.osdn.jp/chm/cmdline/commands/index.htm
+	Command Line Switches
+	https://sevenzip.osdn.jp/chm/cmdline/switches/index.htm
+
+コマンドプロンプト
+	コマンドプロンプト - Windowsの便利な使い方
+	http://www.k-tanaka.net/cmd/
+

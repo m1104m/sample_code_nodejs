@@ -1,0 +1,4 @@
+・対象ディレクトリ（例：zip\zip\zip）でコマンド
+　プロンプトを起動して、以下のコマンドを実行。
+
+npm install jszip --save

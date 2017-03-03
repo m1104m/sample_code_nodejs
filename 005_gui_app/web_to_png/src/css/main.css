@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+	padding: 6px;
+	background: #ddd;
+	overflow: hidden;
+}
+
+/* brwsr */
+#brwsrOut {
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+	background: #fff;
+}
+#brwsr {
+	width: 800px;
+	height: 600px;
+	box-sizing: border-box;
+	border: none;
+}
+
+/* tool */
+#tool {
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+	width: 120px;
+	background: #fff;
+	padding: 8px;
+}
+#tool input[type=button] {
+	width: 100%;
+	height: 3em;
+	font-weight: bold;
+}
+

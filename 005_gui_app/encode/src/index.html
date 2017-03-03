@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <input type="file" id="inptFl" style="display: none;">
+      <div class="tbl">
+        <div class="tblTtl">入力</div>
+        <div class="tblBdy"><input type="text" id="pthInpt"></div>
+        <div class="tblBtn"><input type="button" id="btnInpt" value="参照"></div>
+      </div>
+      <div class="tbl">
+        <div class="tblTtl"></div>
+        <div class="tblBdy"><select id="selInpt"></select></div>
+        <div class="tblBtn">&nbsp;から</div>
+      </div>
+      <div class="tbl">
+        <div class="tblTtl"></div>
+        <div class="tblBdy"><select id="selOutpt"></select></div>
+        <div class="tblBtn">&nbsp;へ</div>
+      </div>
+
+      <div class="vSplt"></div>
+
+      <div>
+        <input type="button" id="btnExec" value="実行">
+      </div>
+    </div><!-- /container -->
+  </body>
+</html>

@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #ddd;
+}
+
+#columnOut {
+	width: 200px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 8px 0 8px 8px;
+	box-sizing: border-box;
+}
+#column {
+	border: solid 2px #ccc;
+	border-radius: 8px;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 8px;
+	background: #fff;
+}
+#column input[type=button] {
+	width: 100%;
+	height: 3em;
+	font-weight: bold;
+	border-radius: 8px;
+}
+#prgrs {
+	width: 100%;
+	box-sizing: border-box;
+	height: 24em;
+	margin: 0.5em 0;
+	background: #dee;
+	border-radius: 8px;
+	padding: 8px;
+}
+
+#brwsrOut {
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+	padding: 6px;
+}
+#brwsr {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	border: solid 2px #ccc;
+	border-radius: 8px;
+	background: #fff;
+}
+
